@@ -1,0 +1,115 @@
+
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+
+
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    padding: 174px 0px 175px 0px;
+    justify-content: center;
+    align-items: center;
+    background: var(--Black, #141414);
+    
+}
+
+.card{
+    display: flex;
+    width: 384px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--Dark-Grey, #1F1F1F);
+    
+}
+
+.profile-pic{
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+    background: url(/assets/images/avatar-jessica.jpeg), lightgray 50% ;
+    background-size: cover;
+    
+}
+
+.name{
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.place{
+    color: var(--Neon-Green, var(--Neon-Green, #C4F82A));
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    
+}
+
+.bio{
+    color: var(--White, var(--White, #FFF));
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+
+.button-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px; 
+    width: 304px; 
+    height: 45px;
+    border: none; 
+    outline: none; 
+    background: var(--Dark-Grey, #333); 
+    color: var(--White, #FFF); 
+    font-size: 14px; 
+    font-weight: 700; 
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-family: Inter;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+
+.button-container button:hover {
+    background: var(--Neon-Green, #C4F82A); 
+    color: var(--Grey, var(--Grey, #333));
+    
+}
+
+.button-container .button-text{
+    text-align: center;
+    
+}
+
+
+.attribution{
+    font-family: Inter;
+    font-size: 14px;
+    color: var(--White, var(--White, #FFF));
+    
+}
+.attribution .attribution-link{
+    color: var(--Neon-Green, var(--Neon-Green, #C4F82A));
+    
+}
