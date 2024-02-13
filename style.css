@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: Inter;
-    src: url(social-links-profile/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 body{
 
@@ -33,7 +33,7 @@ body{
     width: 88px;
     height: 88px;
     border-radius: 999px;
-    background: url(social-links-profile/assets/images/avatar-jessica.jpeg), lightgray 50% ;
+    background: url(social-links-profile-main/assets/images/avatar-jessica.jpeg), lightgray 50% ;
     background-size: cover;
     
 }
