@@ -142,6 +142,7 @@ body{
         height: 88px;
         border-radius: 999px;
         background: url('assets/images/avatar-jessica.jpeg'), lightgray 50% / cover no-repeat;
+        background-size: cover;
 
     }
     .name{
